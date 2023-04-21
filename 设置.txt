@@ -1,0 +1,2 @@
+设置cmake
+-DWOLFSSL_SINGLE_THREADED=yes
