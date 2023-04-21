@@ -1,0 +1,3747 @@
+{
+	"entries" : 
+	[
+		{
+			"name" : "BUILD_SHARED_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build shared libraries (.dll/.so) instead of static ones (.lib/.a)"
+				}
+			],
+			"type" : "BOOL",
+			"value" : "OFF"
+		},
+		{
+			"name" : "CMAKE_ADDR2LINE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/addr2line"
+		},
+		{
+			"name" : "CMAKE_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ar"
+		},
+		{
+			"name" : "CMAKE_ASM_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "ASM compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/cc"
+		},
+		{
+			"name" : "CMAKE_ASM_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ar"
+		},
+		{
+			"name" : "CMAKE_ASM_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ranlib"
+		},
+		{
+			"name" : "CMAKE_ASM_COMPILER_WORKS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : ""
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_ASM_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the ASM compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_ASM_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the ASM compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g"
+		},
+		{
+			"name" : "CMAKE_ASM_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the ASM compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_ASM_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the ASM compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_ASM_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the ASM compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_BUILD_TYPE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Choose the type of build, options are: None Debug Release RelWithDebInfo MinSizeRel ..."
+				}
+			],
+			"type" : "STRING",
+			"value" : "Release"
+		},
+		{
+			"name" : "CMAKE_CACHEFILE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "This is the directory where this CMakeCache.txt was created"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"
+		},
+		{
+			"name" : "CMAKE_CACHE_MAJOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Major version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "3"
+		},
+		{
+			"name" : "CMAKE_CACHE_MINOR_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Minor version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "22"
+		},
+		{
+			"name" : "CMAKE_CACHE_PATCH_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Patch version of cmake used to create the current loaded cache"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_CODEBLOCKS_COMPILER_ID",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Id string of the compiler for the CodeBlocks IDE. Automatically detected when left empty"
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_CODEBLOCKS_EXECUTABLE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "The CodeBlocks executable"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_CODEBLOCKS_EXECUTABLE-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_CODEBLOCKS_MAKE_ARGUMENTS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Additional command line arguments when CodeBlocks invokes make. Enter e.g. -j<some_number> to get parallel builds"
+				}
+			],
+			"type" : "STRING",
+			"value" : "-j8"
+		},
+		{
+			"name" : "CMAKE_COLOR_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable color output during build."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "ON"
+		},
+		{
+			"name" : "CMAKE_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/cmake"
+		},
+		{
+			"name" : "CMAKE_CPACK_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to cpack program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/cpack"
+		},
+		{
+			"name" : "CMAKE_CTEST_COMMAND",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to ctest program executable."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/ctest"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/cc"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_AR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ar' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ar-11"
+		},
+		{
+			"name" : "CMAKE_C_COMPILER_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "A wrapper around 'ranlib' adding the appropriate '--plugin' option for the GCC compiler"
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gcc-ranlib-11"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-g"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-Os -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O3 -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_C_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the C compiler during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : "-O2 -g -DNDEBUG"
+		},
+		{
+			"name" : "CMAKE_DLLTOOL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "CMAKE_DLLTOOL-NOTFOUND"
+		},
+		{
+			"name" : "CMAKE_EXECUTABLE_FORMAT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Executable file format"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "ELF"
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXPORT_COMPILE_COMMANDS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable/Disable output of compile commands during generation."
+				}
+			],
+			"type" : "BOOL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_EXTRA_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of external makefile project generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "CodeBlocks"
+		},
+		{
+			"name" : "CMAKE_EXTRA_GENERATOR_C_SYSTEM_DEFINED_MACROS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "C compiler system defined macros"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "__STDC__;1;__STDC_VERSION__;201710L;__STDC_UTF_16__;1;__STDC_UTF_32__;1;__STDC_HOSTED__;1;__GNUC__;11;__GNUC_MINOR__;3;__GNUC_PATCHLEVEL__;0;__VERSION__;\"11.3.0\";__ATOMIC_RELAXED;0;__ATOMIC_SEQ_CST;5;__ATOMIC_ACQUIRE;2;__ATOMIC_RELEASE;3;__ATOMIC_ACQ_REL;4;__ATOMIC_CONSUME;1;__pic__;2;__PIC__;2;__pie__;2;__PIE__;2;__FINITE_MATH_ONLY__;0;_LP64;1;__LP64__;1;__SIZEOF_INT__;4;__SIZEOF_LONG__;8;__SIZEOF_LONG_LONG__;8;__SIZEOF_SHORT__;2;__SIZEOF_FLOAT__;4;__SIZEOF_DOUBLE__;8;__SIZEOF_LONG_DOUBLE__;16;__SIZEOF_SIZE_T__;8;__CHAR_BIT__;8;__BIGGEST_ALIGNMENT__;16;__ORDER_LITTLE_ENDIAN__;1234;__ORDER_BIG_ENDIAN__;4321;__ORDER_PDP_ENDIAN__;3412;__BYTE_ORDER__;__ORDER_LITTLE_ENDIAN__;__FLOAT_WORD_ORDER__;__ORDER_LITTLE_ENDIAN__;__SIZEOF_POINTER__;8;__GNUC_EXECUTION_CHARSET_NAME;\"UTF-8\";__GNUC_WIDE_EXECUTION_CHARSET_NAME;\"UTF-32LE\";__SIZE_TYPE__;long unsigned int;__PTRDIFF_TYPE__;long int;__WCHAR_TYPE__;int;__WINT_TYPE__;unsigned int;__INTMAX_TYPE__;long int;__UINTMAX_TYPE__;long unsigned int;__CHAR16_TYPE__;short unsigned int;__CHAR32_TYPE__;unsigned int;__SIG_ATOMIC_TYPE__;int;__INT8_TYPE__;signed char;__INT16_TYPE__;short int;__INT32_TYPE__;int;__INT64_TYPE__;long int;__UINT8_TYPE__;unsigned char;__UINT16_TYPE__;short unsigned int;__UINT32_TYPE__;unsigned int;__UINT64_TYPE__;long unsigned int;__INT_LEAST8_TYPE__;signed char;__INT_LEAST16_TYPE__;short int;__INT_LEAST32_TYPE__;int;__INT_LEAST64_TYPE__;long int;__UINT_LEAST8_TYPE__;unsigned char;__UINT_LEAST16_TYPE__;short unsigned int;__UINT_LEAST32_TYPE__;unsigned int;__UINT_LEAST64_TYPE__;long unsigned int;__INT_FAST8_TYPE__;signed char;__INT_FAST16_TYPE__;long int;__INT_FAST32_TYPE__;long int;__INT_FAST64_TYPE__;long int;__UINT_FAST8_TYPE__;unsigned char;__UINT_FAST16_TYPE__;long unsigned int;__UINT_FAST32_TYPE__;long unsigned int;__UINT_FAST64_TYPE__;long unsigned int;__INTPTR_TYPE__;long int;__UINTPTR_TYPE__;long unsigned int;__GXX_ABI_VERSION;1016;__SCHAR_MAX__;0x7f;__SHRT_MAX__;0x7fff;__INT_MAX__;0x7fffffff;__LONG_MAX__;0x7fffffffffffffffL;__LONG_LONG_MAX__;0x7fffffffffffffffLL;__WCHAR_MAX__;0x7fffffff;__WCHAR_MIN__;(-__WCHAR_MAX__ - 1);__WINT_MAX__;0xffffffffU;__WINT_MIN__;0U;__PTRDIFF_MAX__;0x7fffffffffffffffL;__SIZE_MAX__;0xffffffffffffffffUL;__SCHAR_WIDTH__;8;__SHRT_WIDTH__;16;__INT_WIDTH__;32;__LONG_WIDTH__;64;__LONG_LONG_WIDTH__;64;__WCHAR_WIDTH__;32;__WINT_WIDTH__;32;__PTRDIFF_WIDTH__;64;__SIZE_WIDTH__;64;__INTMAX_MAX__;0x7fffffffffffffffL;__INTMAX_C(c);c ## L;__UINTMAX_MAX__;0xffffffffffffffffUL;__UINTMAX_C(c);c ## UL;__INTMAX_WIDTH__;64;__SIG_ATOMIC_MAX__;0x7fffffff;__SIG_ATOMIC_MIN__;(-__SIG_ATOMIC_MAX__ - 1);__SIG_ATOMIC_WIDTH__;32;__INT8_MAX__;0x7f;__INT16_MAX__;0x7fff;__INT32_MAX__;0x7fffffff;__INT64_MAX__;0x7fffffffffffffffL;__UINT8_MAX__;0xff;__UINT16_MAX__;0xffff;__UINT32_MAX__;0xffffffffU;__UINT64_MAX__;0xffffffffffffffffUL;__INT_LEAST8_MAX__;0x7f;__INT8_C(c);c;__INT_LEAST8_WIDTH__;8;__INT_LEAST16_MAX__;0x7fff;__INT16_C(c);c;__INT_LEAST16_WIDTH__;16;__INT_LEAST32_MAX__;0x7fffffff;__INT32_C(c);c;__INT_LEAST32_WIDTH__;32;__INT_LEAST64_MAX__;0x7fffffffffffffffL;__INT64_C(c);c ## L;__INT_LEAST64_WIDTH__;64;__UINT_LEAST8_MAX__;0xff;__UINT8_C(c);c;__UINT_LEAST16_MAX__;0xffff;__UINT16_C(c);c;__UINT_LEAST32_MAX__;0xffffffffU;__UINT32_C(c);c ## U;__UINT_LEAST64_MAX__;0xffffffffffffffffUL;__UINT64_C(c);c ## UL;__INT_FAST8_MAX__;0x7f;__INT_FAST8_WIDTH__;8;__INT_FAST16_MAX__;0x7fffffffffffffffL;__INT_FAST16_WIDTH__;64;__INT_FAST32_MAX__;0x7fffffffffffffffL;__INT_FAST32_WIDTH__;64;__INT_FAST64_MAX__;0x7fffffffffffffffL;__INT_FAST64_WIDTH__;64;__UINT_FAST8_MAX__;0xff;__UINT_FAST16_MAX__;0xffffffffffffffffUL;__UINT_FAST32_MAX__;0xffffffffffffffffUL;__UINT_FAST64_MAX__;0xffffffffffffffffUL;__INTPTR_MAX__;0x7fffffffffffffffL;__INTPTR_WIDTH__;64;__UINTPTR_MAX__;0xffffffffffffffffUL;__GCC_IEC_559;2;__GCC_IEC_559_COMPLEX;2;__FLT_EVAL_METHOD__;0;__FLT_EVAL_METHOD_TS_18661_3__;0;__DEC_EVAL_METHOD__;2;__FLT_RADIX__;2;__FLT_MANT_DIG__;24;__FLT_DIG__;6;__FLT_MIN_EXP__;(-125);__FLT_MIN_10_EXP__;(-37);__FLT_MAX_EXP__;128;__FLT_MAX_10_EXP__;38;__FLT_DECIMAL_DIG__;9;__FLT_MAX__;3.40282346638528859811704183484516925e+38F;__FLT_NORM_MAX__;3.40282346638528859811704183484516925e+38F;__FLT_MIN__;1.17549435082228750796873653722224568e-38F;__FLT_EPSILON__;1.19209289550781250000000000000000000e-7F;__FLT_DENORM_MIN__;1.40129846432481707092372958328991613e-45F;__FLT_HAS_DENORM__;1;__FLT_HAS_INFINITY__;1;__FLT_HAS_QUIET_NAN__;1;__FLT_IS_IEC_60559__;2;__DBL_MANT_DIG__;53;__DBL_DIG__;15;__DBL_MIN_EXP__;(-1021);__DBL_MIN_10_EXP__;(-307);__DBL_MAX_EXP__;1024;__DBL_MAX_10_EXP__;308;__DBL_DECIMAL_DIG__;17;__DBL_MAX__;((double)1.79769313486231570814527423731704357e+308L);__DBL_NORM_MAX__;((double)1.79769313486231570814527423731704357e+308L);__DBL_MIN__;((double)2.22507385850720138309023271733240406e-308L);__DBL_EPSILON__;((double)2.22044604925031308084726333618164062e-16L);__DBL_DENORM_MIN__;((double)4.94065645841246544176568792868221372e-324L);__DBL_HAS_DENORM__;1;__DBL_HAS_INFINITY__;1;__DBL_HAS_QUIET_NAN__;1;__DBL_IS_IEC_60559__;2;__LDBL_MANT_DIG__;64;__LDBL_DIG__;18;__LDBL_MIN_EXP__;(-16381);__LDBL_MIN_10_EXP__;(-4931);__LDBL_MAX_EXP__;16384;__LDBL_MAX_10_EXP__;4932;__DECIMAL_DIG__;21;__LDBL_DECIMAL_DIG__;21;__LDBL_MAX__;1.18973149535723176502126385303097021e+4932L;__LDBL_NORM_MAX__;1.18973149535723176502126385303097021e+4932L;__LDBL_MIN__;3.36210314311209350626267781732175260e-4932L;__LDBL_EPSILON__;1.08420217248550443400745280086994171e-19L;__LDBL_DENORM_MIN__;3.64519953188247460252840593361941982e-4951L;__LDBL_HAS_DENORM__;1;__LDBL_HAS_INFINITY__;1;__LDBL_HAS_QUIET_NAN__;1;__LDBL_IS_IEC_60559__;2;__FLT32_MANT_DIG__;24;__FLT32_DIG__;6;__FLT32_MIN_EXP__;(-125);__FLT32_MIN_10_EXP__;(-37);__FLT32_MAX_EXP__;128;__FLT32_MAX_10_EXP__;38;__FLT32_DECIMAL_DIG__;9;__FLT32_MAX__;3.40282346638528859811704183484516925e+38F32;__FLT32_NORM_MAX__;3.40282346638528859811704183484516925e+38F32;__FLT32_MIN__;1.17549435082228750796873653722224568e-38F32;__FLT32_EPSILON__;1.19209289550781250000000000000000000e-7F32;__FLT32_DENORM_MIN__;1.40129846432481707092372958328991613e-45F32;__FLT32_HAS_DENORM__;1;__FLT32_HAS_INFINITY__;1;__FLT32_HAS_QUIET_NAN__;1;__FLT32_IS_IEC_60559__;2;__FLT64_MANT_DIG__;53;__FLT64_DIG__;15;__FLT64_MIN_EXP__;(-1021);__FLT64_MIN_10_EXP__;(-307);__FLT64_MAX_EXP__;1024;__FLT64_MAX_10_EXP__;308;__FLT64_DECIMAL_DIG__;17;__FLT64_MAX__;1.79769313486231570814527423731704357e+308F64;__FLT64_NORM_MAX__;1.79769313486231570814527423731704357e+308F64;__FLT64_MIN__;2.22507385850720138309023271733240406e-308F64;__FLT64_EPSILON__;2.22044604925031308084726333618164062e-16F64;__FLT64_DENORM_MIN__;4.94065645841246544176568792868221372e-324F64;__FLT64_HAS_DENORM__;1;__FLT64_HAS_INFINITY__;1;__FLT64_HAS_QUIET_NAN__;1;__FLT64_IS_IEC_60559__;2;__FLT128_MANT_DIG__;113;__FLT128_DIG__;33;__FLT128_MIN_EXP__;(-16381);__FLT128_MIN_10_EXP__;(-4931);__FLT128_MAX_EXP__;16384;__FLT128_MAX_10_EXP__;4932;__FLT128_DECIMAL_DIG__;36;__FLT128_MAX__;1.18973149535723176508575932662800702e+4932F128;__FLT128_NORM_MAX__;1.18973149535723176508575932662800702e+4932F128;__FLT128_MIN__;3.36210314311209350626267781732175260e-4932F128;__FLT128_EPSILON__;1.92592994438723585305597794258492732e-34F128;__FLT128_DENORM_MIN__;6.47517511943802511092443895822764655e-4966F128;__FLT128_HAS_DENORM__;1;__FLT128_HAS_INFINITY__;1;__FLT128_HAS_QUIET_NAN__;1;__FLT128_IS_IEC_60559__;2;__FLT32X_MANT_DIG__;53;__FLT32X_DIG__;15;__FLT32X_MIN_EXP__;(-1021);__FLT32X_MIN_10_EXP__;(-307);__FLT32X_MAX_EXP__;1024;__FLT32X_MAX_10_EXP__;308;__FLT32X_DECIMAL_DIG__;17;__FLT32X_MAX__;1.79769313486231570814527423731704357e+308F32x;__FLT32X_NORM_MAX__;1.79769313486231570814527423731704357e+308F32x;__FLT32X_MIN__;2.22507385850720138309023271733240406e-308F32x;__FLT32X_EPSILON__;2.22044604925031308084726333618164062e-16F32x;__FLT32X_DENORM_MIN__;4.94065645841246544176568792868221372e-324F32x;__FLT32X_HAS_DENORM__;1;__FLT32X_HAS_INFINITY__;1;__FLT32X_HAS_QUIET_NAN__;1;__FLT32X_IS_IEC_60559__;2;__FLT64X_MANT_DIG__;64;__FLT64X_DIG__;18;__FLT64X_MIN_EXP__;(-16381);__FLT64X_MIN_10_EXP__;(-4931);__FLT64X_MAX_EXP__;16384;__FLT64X_MAX_10_EXP__;4932;__FLT64X_DECIMAL_DIG__;21;__FLT64X_MAX__;1.18973149535723176502126385303097021e+4932F64x;__FLT64X_NORM_MAX__;1.18973149535723176502126385303097021e+4932F64x;__FLT64X_MIN__;3.36210314311209350626267781732175260e-4932F64x;__FLT64X_EPSILON__;1.08420217248550443400745280086994171e-19F64x;__FLT64X_DENORM_MIN__;3.64519953188247460252840593361941982e-4951F64x;__FLT64X_HAS_DENORM__;1;__FLT64X_HAS_INFINITY__;1;__FLT64X_HAS_QUIET_NAN__;1;__FLT64X_IS_IEC_60559__;2;__DEC32_MANT_DIG__;7;__DEC32_MIN_EXP__;(-94);__DEC32_MAX_EXP__;97;__DEC32_MIN__;1E-95DF;__DEC32_MAX__;9.999999E96DF;__DEC32_EPSILON__;1E-6DF;__DEC32_SUBNORMAL_MIN__;0.000001E-95DF;__DEC64_MANT_DIG__;16;__DEC64_MIN_EXP__;(-382);__DEC64_MAX_EXP__;385;__DEC64_MIN__;1E-383DD;__DEC64_MAX__;9.999999999999999E384DD;__DEC64_EPSILON__;1E-15DD;__DEC64_SUBNORMAL_MIN__;0.000000000000001E-383DD;__DEC128_MANT_DIG__;34;__DEC128_MIN_EXP__;(-6142);__DEC128_MAX_EXP__;6145;__DEC128_MIN__;1E-6143DL;__DEC128_MAX__;9.999999999999999999999999999999999E6144DL;__DEC128_EPSILON__;1E-33DL;__DEC128_SUBNORMAL_MIN__;0.000000000000000000000000000000001E-6143DL;__REGISTER_PREFIX__; ;__USER_LABEL_PREFIX__; ;__GNUC_STDC_INLINE__;1;__NO_INLINE__;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_1;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_2;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_4;1;__GCC_HAVE_SYNC_COMPARE_AND_SWAP_8;1;__GCC_ATOMIC_BOOL_LOCK_FREE;2;__GCC_ATOMIC_CHAR_LOCK_FREE;2;__GCC_ATOMIC_CHAR16_T_LOCK_FREE;2;__GCC_ATOMIC_CHAR32_T_LOCK_FREE;2;__GCC_ATOMIC_WCHAR_T_LOCK_FREE;2;__GCC_ATOMIC_SHORT_LOCK_FREE;2;__GCC_ATOMIC_INT_LOCK_FREE;2;__GCC_ATOMIC_LONG_LOCK_FREE;2;__GCC_ATOMIC_LLONG_LOCK_FREE;2;__GCC_ATOMIC_TEST_AND_SET_TRUEVAL;1;__GCC_ATOMIC_POINTER_LOCK_FREE;2;__HAVE_SPECULATION_SAFE_VALUE;1;__GCC_HAVE_DWARF2_CFI_ASM;1;__PRAGMA_REDEFINE_EXTNAME;1;__SSP_STRONG__;3;__SIZEOF_INT128__;16;__SIZEOF_WCHAR_T__;4;__SIZEOF_WINT_T__;4;__SIZEOF_PTRDIFF_T__;8;__amd64;1;__amd64__;1;__x86_64;1;__x86_64__;1;__SIZEOF_FLOAT80__;16;__SIZEOF_FLOAT128__;16;__ATOMIC_HLE_ACQUIRE;65536;__ATOMIC_HLE_RELEASE;131072;__GCC_ASM_FLAG_OUTPUTS__;1;__k8;1;__k8__;1;__code_model_small__;1;__MMX__;1;__SSE__;1;__SSE2__;1;__FXSR__;1;__SSE_MATH__;1;__SSE2_MATH__;1;__MMX_WITH_SSE__;1;__SEG_FS;1;__SEG_GS;1;__CET__;3;__gnu_linux__;1;__linux;1;__linux__;1;linux;1;__unix;1;__unix__;1;unix;1;__ELF__;1;__DECIMAL_BID_FORMAT__;1;_STDC_PREDEF_H;1;__STDC_IEC_559__;1;__STDC_IEC_60559_BFP__;201404L;__STDC_IEC_559_COMPLEX__;1;__STDC_IEC_60559_COMPLEX__;201404L;__STDC_ISO_10646__;201706L"
+		},
+		{
+			"name" : "CMAKE_EXTRA_GENERATOR_C_SYSTEM_INCLUDE_DIRS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "C compiler system include directories"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/lib/gcc/x86_64-linux-gnu/11/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include"
+		},
+		{
+			"name" : "CMAKE_GENERATOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "Unix Makefiles"
+		},
+		{
+			"name" : "CMAKE_GENERATOR_INSTANCE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Generator instance identifier."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_PLATFORM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator platform."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_GENERATOR_TOOLSET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Name of generator toolset."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_HAVE_LIBC_PTHREAD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test CMAKE_HAVE_LIBC_PTHREAD"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_HAVE_PTHREAD_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include pthread.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_HOME_DIRECTORY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Source directory with the top level CMakeLists.txt file for this project"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/mnt/f/code/pppp/wolfssl-5.6.0-stable"
+		},
+		{
+			"name" : "CMAKE_INSTALL_BINDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "User executables (bin)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "bin"
+		},
+		{
+			"name" : "CMAKE_INSTALL_DATADIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only architecture-independent data (DATAROOTDIR)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_DATAROOTDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only architecture-independent data root (share)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "share"
+		},
+		{
+			"name" : "CMAKE_INSTALL_DOCDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Documentation root (DATAROOTDIR/doc/PROJECT_NAME)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_INCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C header files (include)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "include"
+		},
+		{
+			"name" : "CMAKE_INSTALL_INFODIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Info documentation (DATAROOTDIR/info)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_LIBDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Object code libraries (lib)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "lib"
+		},
+		{
+			"name" : "CMAKE_INSTALL_LIBEXECDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Program executables (libexec)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "libexec"
+		},
+		{
+			"name" : "CMAKE_INSTALL_LOCALEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Locale-dependent data (DATAROOTDIR/locale)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_LOCALSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Modifiable single-machine data (var)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "var"
+		},
+		{
+			"name" : "CMAKE_INSTALL_MANDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Man documentation (DATAROOTDIR/man)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_OLDINCLUDEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "C header files for non-gcc (/usr/include)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/include"
+		},
+		{
+			"name" : "CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install path prefix, prepended onto install directories."
+				}
+			],
+			"type" : "PATH",
+			"value" : "/usr/local"
+		},
+		{
+			"name" : "CMAKE_INSTALL_RUNSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Run-time variable data (LOCALSTATEDIR/run)"
+				}
+			],
+			"type" : "PATH",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_INSTALL_SBINDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "System admin executables (sbin)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "sbin"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SHAREDSTATEDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Modifiable architecture-independent data (com)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "com"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SO_NO_EXE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Install .so files without execute permission."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_INSTALL_SYSCONFDIR",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Read-only single-machine data (etc)"
+				}
+			],
+			"type" : "PATH",
+			"value" : "etc"
+		},
+		{
+			"name" : "CMAKE_LINKER",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ld"
+		},
+		{
+			"name" : "CMAKE_MAKE_PROGRAM",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/gmake"
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of modules during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_NM",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/nm"
+		},
+		{
+			"name" : "CMAKE_NUMBER_OF_MAKEFILES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "number of local generators"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_OBJCOPY",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/objcopy"
+		},
+		{
+			"name" : "CMAKE_OBJDUMP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/objdump"
+		},
+		{
+			"name" : "CMAKE_PLATFORM_INFO_INITIALIZED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Platform information initialized"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "CMAKE_PROJECT_DESCRIPTION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_HOMEPAGE_URL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_PROJECT_NAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "wolfssl"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "5.6.0"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_MAJOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "5"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_MINOR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "6"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_PATCH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "0"
+		},
+		{
+			"name" : "CMAKE_PROJECT_VERSION_TWEAK",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_RANLIB",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/ranlib"
+		},
+		{
+			"name" : "CMAKE_READELF",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/readelf"
+		},
+		{
+			"name" : "CMAKE_ROOT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to CMake installation."
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/share/cmake-3.22"
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SHARED_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of shared libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_SKIP_INSTALL_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when installing shared libraries, but are added when building."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_SKIP_RPATH",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If set, runtime paths are not added when using shared libraries."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "NO"
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during all build types."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during DEBUG builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_MINSIZEREL",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during MINSIZEREL builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELEASE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELEASE builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STATIC_LINKER_FLAGS_RELWITHDEBINFO",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Flags used by the linker during the creation of static libraries during RELWITHDEBINFO builds."
+				}
+			],
+			"type" : "STRING",
+			"value" : ""
+		},
+		{
+			"name" : "CMAKE_STRIP",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/strip"
+		},
+		{
+			"name" : "CMAKE_UNAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "uname command"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/bin/uname"
+		},
+		{
+			"name" : "CMAKE_VERBOSE_MAKEFILE",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "If this value is on, makefiles will be generated without the .SILENT directive, and all commands will be echoed to the console during the make.  This is useful for debugging only. With Visual Studio IDE projects all commands are done without /nologo."
+				}
+			],
+			"type" : "BOOL",
+			"value" : "FALSE"
+		},
+		{
+			"name" : "FIND_PACKAGE_MESSAGE_DETAILS_Threads",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Details about finding Threads"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "[TRUE][v()]"
+		},
+		{
+			"name" : "HAVE_ARPA_INET_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include arpa/inet.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_C___ATOMIC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function __atomic_fetch_add"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : ""
+		},
+		{
+			"name" : "HAVE_DLFCN_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include dlfcn.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_ERRNO_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include errno.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_FCNTL_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include fcntl.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_GETADDRINFO",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function getaddrinfo"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_GETHOSTBYNAME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function gethostbyname"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_GETTIMEOFDAY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function gettimeofday"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_GMTIME_R",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function gmtime_r"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_INET_NTOA",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function inet_ntoa"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_INTTYPES_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include inttypes.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_LIMITS_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include limits.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_MEMORY_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include memory.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_MEMSET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function memset"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_NETDB_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include netdb.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_NETINET_IN_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include netinet/in.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_SIZEOF_LONG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Result of TRY_COMPILE"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "HAVE_SIZEOF_LONG_LONG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Result of TRY_COMPILE"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "HAVE_SIZEOF_TIME_T",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Result of TRY_COMPILE"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "TRUE"
+		},
+		{
+			"name" : "HAVE_SOCKET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function socket"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_STDDEF_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include stddef.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_STDINT_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include stdint.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_STDLIB_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include stdlib.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_STRFTIME",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have function strftime"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_STRINGS_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include strings.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_STRING_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include string.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_SYS_IOCTL_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include sys/ioctl.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_SYS_SOCKET_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include sys/socket.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_SYS_STAT_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include sys/stat.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_SYS_TIME_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include sys/time.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_SYS_TYPES_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include sys/types.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_TIME_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include time.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE_UNISTD_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Have include unistd.h"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "HAVE___UINT128_T",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Result of TRY_COMPILE"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "ProcessorCount_cmd_nproc",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/bin/nproc"
+		},
+		{
+			"name" : "ProcessorCount_cmd_sysctl",
+			"properties" : 
+			[
+				{
+					"name" : "ADVANCED",
+					"value" : "1"
+				},
+				{
+					"name" : "HELPSTRING",
+					"value" : "Path to a program."
+				}
+			],
+			"type" : "FILEPATH",
+			"value" : "/usr/sbin/sysctl"
+		},
+		{
+			"name" : "SIZEOF_LONG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "CHECK_TYPE_SIZE: sizeof(long)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "8"
+		},
+		{
+			"name" : "SIZEOF_LONG_LONG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "CHECK_TYPE_SIZE: sizeof(long long)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "8"
+		},
+		{
+			"name" : "SIZEOF_TIME_T",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "CHECK_TYPE_SIZE: sizeof(time_t)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "8"
+		},
+		{
+			"name" : "THREAD_LS_ON",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Test THREAD_LS_ON"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "1"
+		},
+		{
+			"name" : "WOLFSSL_16BIT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables 16-bit support (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_32BIT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables 32-bit support (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_AES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable AES (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_AESCBC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL AES-CBC support (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_AESCCM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL AES-CCM support (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_AESCFB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL AES-CFB support (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_AESCTR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL AES-CTR support (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_AESGCM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL AES-GCM support (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no;table;small;word32;4bit"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_AESKEYWRAP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable AES key wrap support (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_AESOFB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL AES-OFB support (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_AESSIV",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL AES-SIV support (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_ALIGN_DATA",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Align data for ciphers (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_ARC4",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable ARC4 (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_ASM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables option for assembly (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_ASN",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable ASN (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_ASYNC_THREADS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Asynchronous Threading (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_BASE64_ENCODE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Base64 encoding (default: enabled on x86_64)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_BUILD_OUT_OF_TREE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Don't generate files in the source tree (default: no)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_CAAM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable use of CAAM with NXP (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_CERTEXT",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable cert request extensions (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_CERTGEN",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable cert generation (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_CERTGENCACHE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable decoded cert caching (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_CERTREQ",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable cert request generation (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_CHACHA",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable CHACHA (default: enabled). Use `=noasm` to disable ASM AVX/AVX2 speedups"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no;noasm"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_CMAC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable CMAC (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_CODING",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable coding base 16/64 (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_CONFIG_H",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable generation of config.h and define HAVE_CONFIG_H (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_CRL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable CRL (Use =io for inline CRL HTTP GET) (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no;io"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_CRYPTOCB",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable crypto callbacks (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_CRYPT_TESTS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Crypt Bench/Test (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_CRYPT_TESTS_HELP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Add help text to wolfCrypt test (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_CRYPT_TESTS_LIBS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Build static libraries from the wolfCrypt test and benchmark sources (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_CURVE25519",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Curve25519 (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no;small;no128bit"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_CURVE448",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Curve448 (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no;small"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_DEBUG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables option for debug (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_DES3",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable DES3 (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_DH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable DH (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no;const"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_DH_DEFAULT_PARAMS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables option for default dh parameters (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_DSA",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable DSA (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_DTLS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables wolfSSL DTLS (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_DTLS13",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL DTLS v1.3 (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_DTLS_CID",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables wolfSSL DTLS CID (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_ECC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable ECC (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no;nonblock"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_ECCSHAMIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable ECC Shamir (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_ED25519",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable ED25519 (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_ED448",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable ED448 (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no;small"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_ENCKEYS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable PEM encrypted key support (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_ENC_THEN_MAC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Encryptr-Then-Mac extension (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_ERROR_QUEUE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enables adding nodes to error queue when compiled with OPENSSL_EXTRA (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_ERROR_STRINGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable error strings table (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_EXAMPLES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable examples (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_EXTENDED_MASTER",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Extended Master Secret (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_FAST_MATH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable fast math ops (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_FILESYSTEM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Filesystem support (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_HARDEN",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Hardened build, Enables Timing Resistance and Blinding (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_HASH_DRBG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Hash DRBG support (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_HKDF",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable HKDF (HMAC-KDF) support (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_HRR_COOKIE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable the server to send Cookie Extension in HRR with state (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no;undefined"
+				}
+			],
+			"type" : "STRING",
+			"value" : "undefined"
+		},
+		{
+			"name" : "WOLFSSL_INLINE",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable inline functions (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_KEYGEN",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable key generation (default: disabled)])"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_MD4",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable MD4 (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_MD5",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable MD5 (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_MEMORY",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable memory callbacks (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_OAEP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable RSA OAEP (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_OCSP",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable OCSP (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_OCSPSTAPLING",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable OCSP Stapling (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_OCSPSTAPLING_V2",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable OCSP Stapling v2 (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_OLD_NAMES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Keep backwards compat with old names (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_OLD_TLS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable old TLS versions < 1.2 (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_OPENSSLEXTRA",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable extra OpenSSL API, size+ (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_OPTFLAGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable default optimization CFLAGS for the compiler (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_OQS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable integration with the OQS (Open Quantum Safe) liboqs library (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_PKCS12",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable pkcs12 (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_PKCS7",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable PKCS7 (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_POLY1305",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL POLY1305 support (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_POSTAUTH",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL Post-handshake Authentication (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_PWDBASED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable PWDBASED (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_REPRODUCIBLE_BUILD",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable maximally reproducible build (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_RNG",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable compiling and using RNG (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_RSA",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable RSA (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_RSA_PSS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable RSA-PSS (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_SESSION_TICKET",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Session Ticket (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_SHA",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable SHA (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_SHA224",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL SHA-224 support (default: enabled on x86_64/aarch64)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_SHA3",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL SHA-3 support (default: enabled on x86_64/aarch64)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no;small"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_SHA384",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL SHA-384 support (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_SHA512",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL SHA-512 support (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_SHAKE128",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL SHAKE128 support (default: enabled on x86_64/aarch64)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no;small"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_SHAKE256",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL SHAKE256 support (default: enabled on x86_64/aarch64)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no;small"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_SINGLE_THREADED",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL single threaded (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_SNI",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable SNI (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_SP_MATH_ALL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Single Precision math implementation for full algorithm suite (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_STUNNEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable stunnel (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_SUPPORTED_CURVES",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable Supported Elliptic Curves (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_SYS_CA_CERTS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable ability to load CA certs from OS (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_TICKET_NONCE_MALLOC",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable dynamic allocation of ticket nonces (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_TLS13",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfSSL TLS v1.3 (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_TLSV12",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable TLS versions 1.2 (default: enabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "yes"
+		},
+		{
+			"name" : "WOLFSSL_TLSX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable all TLS Extensions (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_TPM",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable wolfTPM options (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_USER_SETTINGS",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Use your own user_settings.h and do not add Makefile CFLAGS (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "WOLFSSL_X963KDF",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Enable X9.63 KDF support (default: disabled)"
+				},
+				{
+					"name" : "STRINGS",
+					"value" : "yes;no"
+				}
+			],
+			"type" : "STRING",
+			"value" : "no"
+		},
+		{
+			"name" : "_GNUInstallDirs_LAST_CMAKE_INSTALL_PREFIX",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "CMAKE_INSTALL_PREFIX during last run"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "/usr/local"
+		},
+		{
+			"name" : "__UINT128_T",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "CHECK_TYPE_SIZE: sizeof(__uint128_t)"
+				}
+			],
+			"type" : "INTERNAL",
+			"value" : "16"
+		},
+		{
+			"name" : "wolfssl_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"
+		},
+		{
+			"name" : "wolfssl_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "wolfssl_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/mnt/f/code/pppp/wolfssl-5.6.0-stable"
+		}
+	],
+	"kind" : "cache",
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

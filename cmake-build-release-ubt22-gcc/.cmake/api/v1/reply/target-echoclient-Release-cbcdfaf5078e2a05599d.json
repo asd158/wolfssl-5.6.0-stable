@@ -1,0 +1,326 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/echoclient/echoclient"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"add_definitions",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1995,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1999,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1838,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1845,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 1855,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1997,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-Wall -Wextra -Wno-unused -Werror  -O3 -DNDEBUG"
+				}
+			],
+			"defines" : 
+			[
+				{
+					"backtrace" : 3,
+					"define" : "ECC_SHAMIR"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "ECC_TIMING_RESISTANT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "GCM_TABLE_4BIT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_AESGCM"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_CHACHA"
+				},
+				{
+					"backtrace" : 4,
+					"define" : "HAVE_CONFIG_H"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_DH_DEFAULT_PARAMS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_ECC"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_ENCRYPT_THEN_MAC"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_EXTENDED_MASTER"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_FFDHE_2048"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_HASHDRBG"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_HKDF"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_ONE_TIME_AUTH"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_POLY1305"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_PTHREAD"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_SUPPORTED_CURVES"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_THREAD_LS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "HAVE_TLS_EXTENSIONS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NO_DES3"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NO_DSA"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NO_MD4"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NO_PSK"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "NO_RC4"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "TFM_ECC256"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "TFM_TIMING_RESISTANT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WC_NO_ASYNC_THREADING"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WC_RSA_BLINDING"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WC_RSA_PSS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WOLFSSL_BASE64_ENCODE"
+				},
+				{
+					"backtrace" : 5,
+					"define" : "WOLFSSL_IGNORE_FILE_WARN"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WOLFSSL_NO_SHAKE128"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WOLFSSL_NO_SHAKE256"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WOLFSSL_PSS_LONG_SALT"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WOLFSSL_SHA224"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WOLFSSL_SHA3"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WOLFSSL_SHA384"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WOLFSSL_SHA512"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WOLFSSL_SYS_CA_CERTS"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WOLFSSL_TLS13"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WOLFSSL_USE_ALIGN"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "WOLFSSL_X86_64_BUILD"
+				},
+				{
+					"backtrace" : 3,
+					"define" : "_POSIX_THREADS"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 6,
+					"path" : "/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/mnt/f/code/pppp/wolfssl-5.6.0-stable"
+				}
+			],
+			"language" : "C",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "wolfssl::@6890427a1f51a3e7e1df"
+		}
+	],
+	"id" : "echoclient::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-Wall -Wextra -Wno-unused -Werror  -O3 -DNDEBUG",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libwolfssl.a",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "-lm",
+				"role" : "libraries"
+			}
+		],
+		"language" : "C"
+	},
+	"name" : "echoclient",
+	"nameOnDisk" : "echoclient",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "examples/echoclient/echoclient.c",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

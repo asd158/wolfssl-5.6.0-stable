@@ -1,0 +1,1426 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="wolfssl"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\cmake\;CMake Files\wolfcrypt\;CMake Files\wolfcrypt\test\;CMake Files\support\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wolfssl">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/libwolfssl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILDING_WOLFSSL"/>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 wolfssl"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wolfssl/fast">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/libwolfssl.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DBUILDING_WOLFSSL"/>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 wolfssl/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/client/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 client"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="client/fast">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/client/client" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 client/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/server/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 server"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="server/fast">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/server/server" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 server/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoclient">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/echoclient/echoclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 echoclient"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoclient/fast">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/echoclient/echoclient" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 echoclient/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoserver">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/echoserver/echoserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 echoserver"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="echoserver/fast">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/echoserver/echoserver" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 echoserver/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tls_bench">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/benchmark/tls_bench" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 tls_bench"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="tls_bench/fast">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/benchmark/tls_bench" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 tls_bench/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_test">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/tests/unit.test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 unit_test"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="unit_test/fast">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/tests/unit.test" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 unit_test/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wolfcrypttest">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/test/testwolfcrypt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 wolfcrypttest"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wolfcrypttest/fast">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/test/testwolfcrypt" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 wolfcrypttest/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wolfcryptbench">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/benchmark/benchmark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 wolfcryptbench"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="wolfcryptbench/fast">
+				<Option output="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/benchmark/benchmark" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DHAVE_THREAD_LS"/>
+					<Add option="-DHAVE_PTHREAD"/>
+					<Add option="-D_POSIX_THREADS"/>
+					<Add option="-DTFM_TIMING_RESISTANT"/>
+					<Add option="-DECC_TIMING_RESISTANT"/>
+					<Add option="-DWC_RSA_BLINDING"/>
+					<Add option="-DGCM_TABLE_4BIT"/>
+					<Add option="-DHAVE_AESGCM"/>
+					<Add option="-DWOLFSSL_USE_ALIGN"/>
+					<Add option="-DWOLFSSL_SHA512"/>
+					<Add option="-DWOLFSSL_SHA384"/>
+					<Add option="-DHAVE_HKDF"/>
+					<Add option="-DNO_DSA"/>
+					<Add option="-DHAVE_ECC"/>
+					<Add option="-DTFM_ECC256"/>
+					<Add option="-DECC_SHAMIR"/>
+					<Add option="-DWC_RSA_PSS"/>
+					<Add option="-DWOLFSSL_PSS_LONG_SALT"/>
+					<Add option="-DWOLFSSL_BASE64_ENCODE"/>
+					<Add option="-DWOLFSSL_SHA224"/>
+					<Add option="-DWOLFSSL_SHA3"/>
+					<Add option="-DWOLFSSL_NO_SHAKE256"/>
+					<Add option="-DWOLFSSL_NO_SHAKE128"/>
+					<Add option="-DHAVE_POLY1305"/>
+					<Add option="-DHAVE_ONE_TIME_AUTH"/>
+					<Add option="-DHAVE_CHACHA"/>
+					<Add option="-DHAVE_HASHDRBG"/>
+					<Add option="-DHAVE_TLS_EXTENSIONS"/>
+					<Add option="-DHAVE_SUPPORTED_CURVES"/>
+					<Add option="-DHAVE_FFDHE_2048"/>
+					<Add option="-DWOLFSSL_TLS13"/>
+					<Add option="-DHAVE_EXTENDED_MASTER"/>
+					<Add option="-DNO_RC4"/>
+					<Add option="-DHAVE_ENCRYPT_THEN_MAC"/>
+					<Add option="-DNO_PSK"/>
+					<Add option="-DNO_MD4"/>
+					<Add option="-DWOLFSSL_X86_64_BUILD"/>
+					<Add option="-DWC_NO_ASYNC_THREADING"/>
+					<Add option="-DHAVE_DH_DEFAULT_PARAMS"/>
+					<Add option="-DNO_DES3"/>
+					<Add option="-DWOLFSSL_SYS_CA_CERTS"/>
+					<Add option="-DHAVE_CONFIG_H"/>
+					<Add option="-DWOLFSSL_IGNORE_FILE_WARN"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+					<Add directory="/mnt/f/code/pppp/wolfssl-5.6.0-stable"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/11/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 wolfcryptbench/fast"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -j8 -f &quot;/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake-build-release-ubt22-gcc/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/benchmark/tls_bench.c">
+			<Option target="tls_bench"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/benchmark/tls_bench.h">
+			<Option target="tls_bench"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/client/client.c">
+			<Option target="client"/>
+			<Option target="unit_test"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/client/client.h">
+			<Option target="client"/>
+			<Option target="unit_test"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/echoclient/echoclient.c">
+			<Option target="echoclient"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/echoclient/echoclient.h">
+			<Option target="echoclient"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/echoserver/echoserver.c">
+			<Option target="echoserver"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/echoserver/echoserver.h">
+			<Option target="echoserver"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/server/server.c">
+			<Option target="server"/>
+			<Option target="unit_test"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/examples/server/server.h">
+			<Option target="server"/>
+			<Option target="unit_test"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/src/internal.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/src/keys.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/src/ssl.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/src/tls.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/src/tls13.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/src/wolfio.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/tests/api.c">
+			<Option target="unit_test"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/tests/hash.c">
+			<Option target="unit_test"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/tests/srp.c">
+			<Option target="unit_test"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/tests/suites.c">
+			<Option target="unit_test"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/tests/unit.c">
+			<Option target="unit_test"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/tests/unit.h">
+			<Option target="unit_test"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/tests/w64wrapper.c">
+			<Option target="unit_test"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/benchmark/benchmark.c">
+			<Option target="wolfcryptbench"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/benchmark/benchmark.h">
+			<Option target="wolfcryptbench"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/aes.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/asn.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/chacha.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/chacha20_poly1305.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/coding.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/cpuid.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/dh.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/ecc.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/error.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/hash.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/hmac.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/integer.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/kdf.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/logging.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/md5.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/memory.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/pkcs12.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/poly1305.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/pwdbased.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/random.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/rsa.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/sha.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/sha256.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/sha3.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/sha512.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/signature.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/sp_int.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/wc_encrypt.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/wc_port.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/src/wolfmath.c">
+			<Option target="wolfssl"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/test/test.c">
+			<Option target="wolfcrypttest"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/test/test.h">
+			<Option target="wolfcrypttest"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake/config.in">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/cmake/functions.cmake">
+			<Option virtualFolder="CMake Files\cmake\"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/wolfcrypt/test/test_paths.h.in">
+			<Option virtualFolder="CMake Files\wolfcrypt\test\"/>
+		</Unit>
+		<Unit filename="/mnt/f/code/pppp/wolfssl-5.6.0-stable/support/wolfssl.pc.in">
+			<Option virtualFolder="CMake Files\support\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
