@@ -1508,7 +1508,7 @@ endif()
 # fastmath
 add_option("WOLFSSL_FAST_MATH"
     "Enable fast math ops (default: disabled)"
-    "no" "yes;no")
+    "yes" "yes;no")
 
 if(WOLFSSL_FAST_MATH)
     # turn off fastmath if leanpsk on or asn off (w/o DH and ECC)
