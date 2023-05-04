@@ -244,7 +244,7 @@ endif()
 # Single threaded
 add_option("WOLFSSL_SINGLE_THREADED"
     "Enable wolfSSL single threaded (default: disabled)"
-    "no" "yes;no")
+    "yes" "yes;no")
 
 # TODO: Logic here isn't complete, yet (see AX_PTHREAD)
 if(NOT WOLFSSL_SINGLE_THREADED)
@@ -281,7 +281,7 @@ endif()
 # Post-handshake authentication
 add_option("WOLFSSL_POSTAUTH"
     "Enable wolfSSL Post-handshake Authentication (default: disabled)"
-    "no" "yes;no")
+    "yes" "yes;no")
 
 if(WOLFSSL_POSTAUTH)
     if(NOT WOLFSSL_TLS13)
@@ -389,7 +389,7 @@ endif()
 
 add_option(WOLFSSL_OPENSSLEXTRA
     "Enable extra OpenSSL API, size+ (default: disabled)"
-    "no" "yes;no")
+    "yes" "yes;no")
 
 if (WOLFSSL_OPENSSLEXTRA AND NOT WOLFSSL_OPENSSLCOEXIST)
     list(APPEND WOLFSSL_DEFINITIONS
